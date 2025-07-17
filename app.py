@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go
 st.title("Análisis Exploratorio de Vehículos")
 st.header("Explora los datos de anuncios de autos usados en EE. UU.")
-car_data = pd.read_csv('C:\\Users\\danie\\Proyecto-7\\vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 st.subheader("Datos de Vehículos")
 st.write(car_data.head())
 hist_button = st.button('Construir histograma')
